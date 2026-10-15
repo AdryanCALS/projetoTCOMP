@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# AI Tooling & Local Desk artifacts
+.agents/
+.aider-desk/
+skills-lock.json
+data/
+.scratch/
+AGENTS.md
+
