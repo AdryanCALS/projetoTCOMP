@@ -48,6 +48,16 @@ class StructuralValidationError(Exception):
     def format(self) -> str:
         return f"Erro de validação na linha {self.line}: {self.message}."
 
+class TypeValidationError(Exception):
+    """Erro de validação de tipo de dados (inteiros com letras, caracteres inválidos em nome, etc.)."""
+    def __init__(self, line: int, raw_line: str, message: str = "Tipo de dados inválido") -> None:
+        super().__init__(message)
+        self.line = line
+        self.raw_line = raw_line
+        self.message = message
+
+    def format(self) -> str:
+        return f"Erro de validação na linha {self.line}: {self.message} em {self.raw_line}."
 
 @dataclass
 class UserRecord:
