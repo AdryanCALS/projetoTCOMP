@@ -152,3 +152,18 @@ python -m src.cli caminho/para/arquivo.xml
 ```bash
 python -m unittest discover -s tests -p "test_*.py"
 ```
+
+---
+
+## 7. Uso de Inteligência Artificial Generativa
+
+Este projeto contou com o apoio de ferramentas de Inteligência Artificial Generativa para auxílio na implementação de partes do código e dos testes automatizados.
+
+### Justificativa e Foco Acadêmico
+Por se tratar de um projeto prático da disciplina de **Teoria da Computação**, a ênfase primordial da avaliação e do aprendizado não está nas particularidades de sintaxe ou bibliotecas de uma linguagem de programação específica, mas sim:
+- Na **compreensão e aplicação dos conceitos formais** de Teoria da Computação (Linguagens Regulares, Linguagens Livres de Contexto e seus reconhecedores);
+- Na **modelagem matemática e estrutural** de como o projeto funciona (Autômatos Finitos Determinísticos para análise léxica e validação de tipos, e Autômato com Pilha para reconhecimento sintático);
+- Na garantia de que a arquitetura e o fluxo de processamento reflitam fielmente os modelos teóricos estudados na bibliografia de referência (*Michael Sipser, 2ª Edição*).
+
+Assim, a IA generativa foi utilizada como ferramenta instrumental de apoio na codificação de trechos de código e scaffolding, enquanto o direcionamento arquitetural, o embasamento teórico, a definição dos autômatos/transições e a validação do pipeline foram definidos e verificados pela equipe.
+

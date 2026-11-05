@@ -1,0 +1,4 @@
+<usuarios>
+<usuario><id>101</id><nome>Carlos Silva</nome><idade>34</idade></usuario>
+<usuario><id>102</id><nome>Ana Souza</nome><idade>28</idade></usuario>
+</usuarios>
