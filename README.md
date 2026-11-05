@@ -103,8 +103,6 @@ Para garantir que todos os 4 integrantes trabalhem de forma igualitária e sem d
 | **#3 - Validador de Tipos** | Integrante 3 | `src/types_validator.py`<br/>`tests/test_types.py` | Sipser Cap. 1: Autômatos Finitos Determinísticos |
 | **#4 - CLI e Testes Integrados** | Integrante 4 | `src/cli.py`<br/>`tests/test_cli_integration.py` | Integração, tratamento de erros e CLI |
 
-A especificação detalhada de cada issue encontra-se em [docs/issues/ISSUES.md](docs/issues/ISSUES.md).
-
 ---
 
 ## 5. Estrutura do Repositório
