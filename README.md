@@ -68,7 +68,7 @@ A sintaxe do documento é descrita pela GLC $G = (V, \Sigma, R, S)$ (*Sipser, De
 
 ### 3.2. Autômato com Pilha (PDA)
 O emparelhamento das tags é validado por um PDA $M = (Q, \Sigma, \Gamma, \delta, q_0, F)$ (*Sipser, Definição 2.13*):
-- $\Gamma = \{ \$ , \text{TAG\_USUARIOS}, \text{TAG\_USUARIO}, \text{TAG\_ID}, \text{TAG\_NOME}, \text{TAG\_IDADE} \}$ (alfabeto da pilha, onde $\$$ é o marcador de fundo de pilha).
+- $\Gamma = \{ \bot, \mathtt{TAG\_USUARIOS}, \mathtt{TAG\_USUARIO}, \mathtt{TAG\_ID}, \mathtt{TAG\_NOME}, \mathtt{TAG\_IDADE} \}$ (alfabeto da pilha, onde $\bot$ é o marcador de fundo de pilha).
 - **Mecanismo de Transição**:
   - Para qualquer tag de abertura $t \in \{ \text{usuarios}, \text{usuario}, \text{id}, \text{nome}, \text{idade} \}$: executa $\text{push}(t)$.
   - Para qualquer tag de fechamento correspondente $t$: verifica se $\text{topo}(\text{pilha}) == t$. Se sim, executa $\text{pop}()$; se não, rejeita imediatamente por inconsistência sintática.
